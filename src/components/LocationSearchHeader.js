@@ -186,7 +186,11 @@ export default class LocationSearchHeader extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.4,
+    position: 'absolute',
+    //top: 0,
+    //left: 0,
+    width: Dimensions.get('window').width, 
+    height: Dimensions.get('window').height,
     zIndex: 1,
   },
   hoverbar: {
